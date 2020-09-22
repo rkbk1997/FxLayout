@@ -1,0 +1,49 @@
+.slider .card{
+    background: black;
+    opacity: .9;
+}
+.slider .card img{
+    height: 450px;
+
+}
+.slider .card h1{
+    font-family:'Roboto Slab', serif;
+    color: #fff;
+    font-size: 30px;
+    /*text-align: center;*/
+    padding-left: 100px;
+    margin-top: 80px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.slider .card p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    /*text-align: center;*/
+    padding-left: 100px;
+    text-transform: capitalize;
+    text-align: justify !important;
+}
+.slider .card a button{
+    color: #fff;
+    
+    padding: 10px;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 3px 15px 9px rgba(239,247,247,1);
+    -moz-box-shadow: -1px 3px 15px 9px rgba(239,247,247,1);
+    box-shadow: -1px 3px 15px 9px rgba(239,247,247,1);
+}
+
+.example-card {
+    max-width: 300px;
+    
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
