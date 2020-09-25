@@ -12,6 +12,8 @@
     margin: 15px;
     border: 2px solid rgb(180, 178, 178);
     padding: 10px;
+    height: 200px;
+    width: 100%;
 }
 
 .timeline .container .profile .card {
@@ -53,4 +55,11 @@
 .mybtn{
     background-color:#FF8008;
     width: 100%;
+    border-radius: 0 !important;
+    height: 60px;
+    font-family:'Roboto Slab', serif;
+    font-weight: 600;
+    border:1px solid gainsboro;
+    color: #fff;
+    letter-spacing: 2px;
 }

@@ -6,8 +6,8 @@
     min-height: 450px;
 }
 .signup .row .signupcontainer{
-    /* background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);  */
-    background-color: #ada9ab;
+    background: linear-gradient(45deg, #207dff 0%, #00bd55 100%); 
+    /* background-color: #ada9ab; */
     opacity: .8;
     min-height: 450px;
 }
@@ -23,7 +23,7 @@
     background: transparent !important;
     color: black;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #fff;
 }
 .signupcontainer .container a{
     color: #fff;
@@ -41,8 +41,9 @@
 
 .btn{
     background-color: #FF8008;
-    color: black;
+    color: #fff;
     font-family:'Roboto Slab', serif;
     font-weight: 700;
-    word-spacing: 2px !important;
+    letter-spacing: 2px !important;
+
 }

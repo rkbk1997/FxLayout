@@ -38,7 +38,7 @@
     background: transparent !important;
     color: black;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #fff;
 }
 
 .logincontainer .container a {
@@ -59,8 +59,9 @@
 
 .btn {
     background-color: #FF8008;
-    color: black;
+    color: #fff;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    word-spacing: 2px !important;
+    letter-spacing: 2px !important;
+
 }

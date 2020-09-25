@@ -11,11 +11,12 @@
 .navbar ul li a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    color: #fff !important;
 }
 .navbar-brand{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 .navbar ul li a:hover{
-    color: #fff;
+    color: black !important;
 }
