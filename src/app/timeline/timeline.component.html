@@ -52,10 +52,25 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-12">
-                <button class="btn mybtn mt-4" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-send fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp;Uploads
+                <button class="btn mybtn mt-4" data-toggle="modal" data-target="#exampleModal"><i
+                        class="fa fa-send fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp;Uploads
                     Post</button>
                 <button class="btn mybtn mt-1"><i class="fa fa-envelope fa-lg"></i>&nbsp;&nbsp;&nbsp;&nbsp;Invite
                     Friends</button>
+                <!---categories--------------------------->
+                <div class="card mt-3 mb-3 mycard">
+                    <div class="card-header cate">
+                        <i class="fa fa-bars fa-lg"></i> Categories
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><img src="assets/images/cat.png" alt=""> Cat</li>
+                            <li><img src="assets/images/dog.png" alt=""> Dog</li>
+                            <li><img src="assets/images/horse.png" alt=""> Horse</li>
+                            <li><img src="assets/images/bird.png" alt=""> Birds</li>
+                        </ul>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -65,35 +80,37 @@
 
 <!--Model-->
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 99999;">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+    style="z-index: 99999;">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title" id="exampleModalLabel">Post Upload...</h1>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" id="exampleModalLabel">Post Upload...</h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="">Select Categories</label>
+                        <select name="" id="" class="form-control mb-3">
+                            <option value="0">Choose Your Pet Categories</option>
+                            <option value="">Cats</option>
+                        </select>
+                        <label for="">Discription Your Pet</label>
+                        <textarea name="" id="" cols="" rows="5" class="form-control mb-3"></textarea>
+                        <label for="">Choose Picture</label>
+                        <input type="file" name="" id="" class="mb-3"><br>
+                        <!-- <button class="btn postbtn"><i class="fa fa-send fa-lg"></i>&nbsp;&nbsp;&nbsp;Post</button> -->
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-warning"><i
+                        class="fa fa-send fa-lg"></i>&nbsp;&nbsp;&nbsp;Post</button>
+            </div>
         </div>
-        <div class="modal-body">
-          <form>
-              <div class="form-group">
-                  <label for="">Select Categories</label>
-                  <select name="" id="" class="form-control mb-3">
-                    <option value="0">Choose Your Pet Categories</option>
-                    <option value="">Cats</option>
-                  </select>
-                  <label for="">Discription Your Pet</label>
-                  <textarea name="" id="" cols="" rows="5" class="form-control mb-3"></textarea>
-                  <label for="">Choose Picture</label>
-                  <input type="file"  name="" id="" class="mb-3"><br>
-                  <!-- <button class="btn postbtn"><i class="fa fa-send fa-lg"></i>&nbsp;&nbsp;&nbsp;Post</button> -->
-              </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-warning"><i class="fa fa-send fa-lg"></i>&nbsp;&nbsp;&nbsp;Post</button>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
