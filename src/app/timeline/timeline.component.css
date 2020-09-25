@@ -63,3 +63,12 @@
     color: #fff;
     letter-spacing: 2px;
 }
+.postbtn{
+    background-color:#FF8008;
+    border-radius: 0 !important;
+    font-family:'Roboto Slab', serif;
+    font-weight: 600;
+    border:1px solid gainsboro;
+    color: #fff;
+    letter-spacing: 2px;
+}
