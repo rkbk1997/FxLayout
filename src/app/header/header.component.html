@@ -60,25 +60,25 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" [routerLink]="[ '/']"><i class="fa fa-home fa-lg"></i> Home</a>
+            <a class="nav-link active" aria-current="page" [routerLink]="[ '/']" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-home fa-lg"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="fa fa-sticky-note fa-lg"></i> About Us</a>
+            <a class="nav-link active" href="#" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-sticky-note fa-lg"></i> About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="fa fa-phone fa-lg"></i> Contact Us</a>
+            <a class="nav-link active" href="#" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-phone fa-lg"></i> Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="fa fa-question fa-lg"></i> FAQ Us</a>
+            <a class="nav-link active" href="#" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-question fa-lg"></i> FAQ Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" [routerLink]="[ '/timeline']"><i class="fa fa-comment fa-lg"></i> TimeLine</a>
+            <a class="nav-link active" [routerLink]="[ '/timeline']" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-comment fa-lg"></i> TimeLine</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" style="cursor:pointer" [routerLink]="[ '/login']" ><i class="fa fa-user fa-lg"></i> Login</a>
+            <a class="nav-link active" style="cursor:pointer" [routerLink]="[ '/login']"  data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-user fa-lg"></i> Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" [routerLink]="[ '/signup']"><i class="fa fa-key fa-lg"></i> Sign Up</a>
+            <a class="nav-link active" [routerLink]="[ '/signup']" data-toggle="collapse" data-target=".navbar-collapse.show"><i class="fa fa-key fa-lg"></i> Sign Up</a>
           </li>
           <li class="nav-item">
             <div class="dropdown" >
@@ -86,9 +86,9 @@
                 <i class="fa fa-user fa-lg" style="color: black;"></i>
               </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
-                <li><a class="dropdown-item" href="#">My Profile</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">My Profile</a></li>
+                <li><a class="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Another action</a></li>
+                <li><a class="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Something else here</a></li>
               </ul>
             </div>
           </li>
@@ -96,12 +96,7 @@
       </div>
     </div>
   </nav>
-  <script>
-    $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-  </script>
-
+  
   <!-- <app-slider></app-slider>
   <app-chooseus></app-chooseus>
   <app-blog></app-blog>
