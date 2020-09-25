@@ -1,0 +1,56 @@
+.timeline {
+    margin-top: 85px;
+    background-color: #FBF9F9;
+}
+
+.timeline .container .profile {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.timeline .container .profile img {
+    margin: 15px;
+    border: 2px solid rgb(180, 178, 178);
+    padding: 10px;
+}
+
+.timeline .container .profile .card {
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: -1px 0px 11px 0px rgba(224, 220, 224, 1);
+    -moz-box-shadow: -1px 0px 11px 0px rgba(224, 220, 224, 1);
+    box-shadow: -1px 0px 11px 0px rgba(224, 220, 224, 1);
+}
+.profilecol .edit{
+    float: right;
+    margin-top:15px;
+    margin-left:15px;
+}
+.profilecol ul{
+    list-style: none;
+    margin-top: 25px;
+    padding: 15px;
+}
+.profilecol ul li{
+    padding-bottom: 10px;
+}
+.profilecol ul li .div_name2{
+    /* font-family:'Roboto Slab', serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    /* font-weight: 600; */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.profilecol ul li .div_name1{
+    font-family:'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.mybtn{
+    background-color:#FF8008;
+    width: 100%;
+}

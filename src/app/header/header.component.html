@@ -1,10 +1,11 @@
-<mat-toolbar color="primary">
-    <mat-toolbar-row fxLayoutAlign="space-between center">
+<!-- <mat-toolbar color="primary">
+    <mat-toolbar-row fxLayoutAlign="sapce-around center">
         <div fxLayout="row">
             <button mat-button>
+                <img src="../../assets/images/s1.png" class="logo" alt="">
                 <mat-icon>book</mat-icon>&nbsp;
-                <span class="logo">E-Education</span>
-            </button>
+                <span class="logo">PPl Link To Pet</span>
+            </button> 
             <div *ngIf='!deviceXs'>
                 <button mat-button>
                     <mat-icon>home</mat-icon><span> Home</span>
@@ -21,9 +22,10 @@
             </div>
         </div>
         <div>
-            <button mat-icon-button>
+            <button mat-button>
                 <mat-icon *ngIf='deviceXs'>login</mat-icon>
-                <span *ngIf='!deviceXs'>Login</span>
+                <mat-icon>login</mat-icon><span *ngIf='!deviceXs'> Login</span>
+                
             </button>
         </div>
 
@@ -44,100 +46,60 @@
         </button>
     </mat-toolbar-row>
 </mat-toolbar>
+<app-slider></app-slider> -->
 
-
-<!-------slider-------------------------------------------------------------------------------------------->
-<div class="slider">
-    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!--<img src="..." class="d-block w-100" alt="...">-->
-                <div class="card">
-                    <div class="card-body p-0 m-0">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="animate__animated animate__backInLeft animate__slow">
-                                    <h1>Learning Online Becomes Easier</h1><br>
-                                    <p>Academy is a perfect theme for sharing
-                                        and selling your knowledge online. It’s not just a theme,
-                                        but learning management system that provides great features
-                                        to make learning and teaching online easier for everyone.</p>
-
-                                    <a href="login" style="padding-left: 100px;"><button mat-raised-button
-                                            color="primary"><i class="fa fa-book"></i>&nbsp;Get Started</button></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-
-                                <img src="../../assets/images/slide_1.png" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<nav class="navbar navbar-expand-lg navbar-light" style="z-index: 9999;position: fixed;top: 0;width: 100%;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="../../assets/images/s1.png" class="logo" alt="">
+          PPL
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="[ '/']"><i class="fa fa-home fa-lg"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="fa fa-sticky-note fa-lg"></i> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="fa fa-phone fa-lg"></i> Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="fa fa-question fa-lg"></i> FAQ Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="[ '/timeline']"><i class="fa fa-comment fa-lg"></i> TimeLine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="cursor:pointer" [routerLink]="[ '/login']" ><i class="fa fa-user fa-lg"></i> Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" [routerLink]="[ '/signup']"><i class="fa fa-key fa-lg"></i> Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown" >
+              <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-user fa-lg" style="color: black;"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </div>
-            <div class="carousel-item">
-                <div class="card">
-                    <div class="card-body p-0 m-0">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="animate__animated animate__backInRight animate__slow">
-                                    <h1>Start Teaching With Academy</h1><br>
-                                    <p>Academy is a perfect theme for sharing
-                                        and selling your knowledge online. It’s not just a theme,
-                                        but learning management system that provides great features
-                                        to make learning and teaching online easier for everyone.</p>
-
-                                    <a href="login" style="padding-left: 100px;"><button mat-raised-button
-                                            color="primary"><i class="fa fa-book"></i>&nbsp;Get Started</button></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-
-                                <img src="../../assets/images/slide_2.png" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card">
-                    <div class="card-body p-0 m-0">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="animate__animated animate__backInUp animate__slow">
-                                    <h1>Share Your Knowledge Online</h1><br>
-                                    <p>Academy is a perfect theme for sharing
-                                        and selling your knowledge online. It’s not just a theme,
-                                        but learning management system that provides great features
-                                        to make learning and teaching online easier for everyone.</p>
-
-                                    <a href="login" style="padding-left: 100px;"><button mat-raised-button
-                                            color="primary"><i class="fa fa-book"></i>&nbsp;Get Started</button></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-
-                                <img src="../../assets/images/slide_3.png" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+          </li>
+        </ul>
+      </div>
     </div>
-</div>
-<!--------------------------------------------------------------------------------->
-<div class="container-fluid" style="background-color: #fff;">
-         
-</div>
+  </nav>
+
+  <!-- <app-slider></app-slider>
+  <app-chooseus></app-chooseus>
+  <app-blog></app-blog>
+  <app-feedback></app-feedback> -->
+  <!-- <app-login></app-login> -->
+  <!-- <app-footer></app-footer> -->

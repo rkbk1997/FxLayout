@@ -1,0 +1,43 @@
+.blog{
+    background-color: #F8F9FD;
+    padding-bottom: 70px;
+}
+.blog .container h1{
+    text-align: center;
+    font-family:'Roboto Slab', serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.blog .container .card{
+    border: none;
+}
+.blog .container .card small span{
+    padding-right: 20px;
+    font-size: 15px;
+    font-family:'Roboto Slab', serif;
+}
+.blog .container .card small span:hover{
+    color: black;
+    font-weight: bold;
+}
+.blog .container .card small i{
+    padding-right: 15px;
+    color: #FF8008 !important;
+    font-size: 30px;   
+}
+.blog .container .card small i:hover{
+    color: black !important;
+}
+.blog .container .card .card-body h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.blog .container .card .card-body h3:hover{
+    color: #FF8008;
+}

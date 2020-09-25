@@ -1,0 +1,66 @@
+.login {
+    background: url(../../assets/images/feedback.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 87px;
+    min-height: 450px;
+}
+
+.login .row .logincontainer {
+    background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+    /* background-color: #ada9ab; */
+    opacity: .8;
+    min-height: 450px;
+}
+
+.login .row .logincontainer .container h1 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.login .row .logincontainer .container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    /* border-radius: 50%; */
+}
+
+.login .row .logincontainer .container input[type=email],
+[type=password],
+[type=text] {
+    background: transparent !important;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.logincontainer .container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.logincontainer .container a:hover {
+    color: black;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.btn {
+    background-color: #FF8008;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    word-spacing: 2px !important;
+}

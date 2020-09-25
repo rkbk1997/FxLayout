@@ -10,10 +10,30 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MatCardModule} from '@angular/material/card';
+import { SliderComponent } from './slider/slider.component';
+import { ChooseusComponent } from './chooseus/chooseus.component';
+import { BlogComponent } from './blog/blog.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { HomeComponent } from './home/home.component';
+import { SignupComponent } from './signup/signup.component';
+import { TimelineComponent } from './timeline/timeline.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    SliderComponent,
+    ChooseusComponent,
+    BlogComponent,
+    FeedbackComponent,
+    FooterComponent,
+    LoginComponent,
+    HomeComponent,
+    SignupComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +44,8 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonModule,
     MatIconModule,
     NgbModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule
   ],
   exports: [
     HeaderComponent
