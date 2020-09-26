@@ -7,6 +7,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.timeline .container .profile .card{
+    background-color: rgb(194, 192, 189);
+}
 
 .timeline .container .profile img {
     margin: 15px;
@@ -15,7 +18,14 @@
     height: 200px;
     width: 100%;
 }
-
+#changebtn{
+    text-align: center;
+    text-decoration: none !important;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .timeline .container .profile .card {
     background-color: transparent;
     border: none;
@@ -27,6 +37,7 @@
     float: right;
     margin-top:15px;
     margin-left:15px;
+    font-family:'Roboto Slab', serif;
 }
 .profilecol ul{
     list-style: none;
@@ -165,4 +176,7 @@
     color: #fff;
     font-size: 15px;
     font-weight: 600;
+}
+#editbutton{
+    background-color: blanchedalmond;
 }
